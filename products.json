@@ -2,12 +2,16 @@
     {
         "code" : "001",
         "name" : "Altavoces",
-        "description" : "Altavoces",
-        "cost" : "",
+        "description" : "Altavoces Dolby 5.0",
+        "cost" : "50",
         "img" : "ALTAVOCES.GIF"
 
     },
     {
-        "chch" : "eoigj"
+        "code" : "002",
+        "name" : "CD ROM",
+        "description" : "Reproductor de CD de 2002",
+        "cost" : "20",
+        "img" : "CDROM.GIF"
     }
 ]

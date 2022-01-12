@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item img{
+    max-width: 150px;
+}
