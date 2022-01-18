@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+:root{
+    --first-color : #fff;
+    --second-color : rgb(241, 75, 75);
+    --main-font : 'Roboto', sans-serif;
+
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: #283044;
+}
+
+h1{
+    text-align: center;
+    margin: 1em 0;
+    color: #fff;
+    font-family: var(--main-font);
+}
+
+
+main{
+    margin: 1em 0;
+}
+
+form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1em;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+.item{
+    order: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    margin: 2em 1em;
+    width: 200px;
+    border-radius: .5em;
+    font-family: var(--main-font);
+    color: #fff;
+    background-color: rgb(241, 75, 75);
+    
+}
+
+.item section{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.item section p{
+    margin: 0 .3em ;
+}
+
+
+.item figure, .item img{
+    width: 100%;
+    
+}
+
+.item input{
+    width: 50%;
+    padding: .1em 0;
+    align-self: center;
+    text-align: center;
+    font-size: 1.2em;
+    border: 0 ;
+    border-radius: .2em .2em 0 0;
+}
+
+
+.item > p{
+    margin: .2em 0;
+}
+
+
+.item section p{
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.item > p{
+    font-size: .8em;
+    text-align: center;
+    padding: 0 .2em;
+}
+
+.submit{
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin:  0 0  2em 0;
+
+}
+
+.submit input{
+    padding: 1em;
+    border: 0;
+    background-color: transparent;
+    border-radius: .2em;
+    color: var(--second-color);
+    outline: .1em solid var(--second-color);
+
+}
+
+.submit input:hover{
+    color: var(--first-color);
+    outline: .1em solid var(--first-color);
+    cursor: pointer;
+}
+
+
+.process{
+    padding: 1em;
+    order:2;
+    width: 300px;
+    cursor: pointer;
+}
+
+
+
+
+

@@ -1,0 +1,46 @@
+@import url("shoppingCart.css");
+
+
+
+
+
+main{
+    display: flex;
+    outline: .1em solid #fff;
+    border-radius: .2em;
+    flex-flow: row wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+main .item{
+    color: #fff;
+    background-color: rgb(241, 75, 75);
+    border-radius: .5em;
+}
+
+
+main section{
+    order: 3;
+    width: 100%;
+    text-align: center;
+
+}
+
+main section p{
+    background-color: #fff;
+    padding: .5em 0;
+    font-family: var(--main-font);
+}
+
+
+.empty{
+    background-color: #fff;
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: var(--main-font);
+}
